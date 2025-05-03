@@ -1,9 +1,11 @@
-const prompt = require("prompt-sync")({sigint:true});
+import promptSync from 'prompt-sync';
+const prompt = promptSync({ sigint: true });
+// const prompt = require("prompt-sync")({sigint:true});
 
 let input = null;
 
 while(input !== "q"){
-    console.log("(w)p, (s)own, (a)eft, (d)ight, (q)uit.");
+    console.log("(w)up, (s)down, (a)left, (d)right, (q)quit.");
     input = prompt("which way would you like to move?");
     console.log(input);
 

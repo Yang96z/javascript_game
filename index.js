@@ -1,4 +1,6 @@
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
+import promptSync from "prompt-sync"
+
 
 // Game elements
 const GRASS = "░";

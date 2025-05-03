@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "create a javascript game to learn about concepts in javascript",
   "main": "user-gameplay.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
